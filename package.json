@@ -1,0 +1,49 @@
+{
+  "name": "google-finance",
+  "description": "Google Finance company news and historical quotes data downloader written in Node.js",
+  "version": "0.1.1",
+  "license": "MIT",
+  "author": {
+    "name": "Pilwon Huh",
+    "email": "pilwon@gmail.com"
+  },
+  "homepage": "https://github.com/pilwon/node-google-finance",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pilwon/node-google-finance.git"
+  },
+  "keywords": [
+    "google",
+    "finance",
+    "financial",
+    "data",
+    "stock",
+    "price",
+    "quote",
+    "historical",
+    "eod",
+    "end-of-day",
+    "client",
+    "library"
+  ],
+  "dependencies": {
+    "bluebird": "^2.3.2",
+    "debug": "^2.0.0",
+    "feedparser": "^0.19.2",
+    "lodash": "^2.4.1",
+    "moment": "^2.8.3",
+    "request": "^2.44.0",
+    "string": "^1.9.1"
+  },
+  "devDependencies": {
+    "colors": "^0.6.2",
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-jshint": "^0.7.2",
+    "grunt-contrib-watch": "^0.5.3",
+    "load-grunt-tasks": "^0.6.0"
+  },
+  "scripts": {
+    "prepublish": "npm prune"
+  }
+}
