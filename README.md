@@ -252,7 +252,7 @@ googleFinance.historical({
 <pre>
 The MIT License (MIT)
 
-Copyright (c) 2014 Pilwon Huh
+Copyright (c) 2014-2016 Pilwon Huh
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
