@@ -216,6 +216,31 @@ googleFinance.historical({
 });
 ```
 
+### Specifying request options
+
+Optionally request options (such as a proxy) can be specified by inserting an
+extra parameter just before the callback:
+
+
+```js
+var httpRequestOptions = {
+  proxy: 'http://localproxy.com'
+};
+
+googleFinance.companyNews({
+  symbol: SYMBOL
+}, httpRequestOptions, function (err, news) {
+  // Result
+});
+
+googleFinance.historical({
+  symbol: SYMBOL,
+  from: START_DATE,
+  to: END_DATE
+}, httpRequestOptions, function (err, quotes) {
+  // Result
+});
+```
 
 ## Credits
 
