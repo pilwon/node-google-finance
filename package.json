@@ -45,6 +45,6 @@
     "load-grunt-tasks": "3.5.2"
   },
   "scripts": {
-    "prepublish": "npm prune"
+    "prepare": "npm prune"
   }
 }
