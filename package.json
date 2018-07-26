@@ -1,7 +1,7 @@
 {
   "name": "google-finance",
   "description": "Google Finance company news and historical quotes data downloader written in Node.js",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "license": "MIT",
   "author": {
     "name": "Pilwon Huh",
